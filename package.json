@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node build.mjs",
     "preview": "node scripts/preview.mjs",
-    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "db:generate": "drizzle-kit generate",
     "build:android": "node build.mjs --android"
   },
